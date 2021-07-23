@@ -226,3 +226,18 @@ ReactDOM.render(
 
 
 
+function Comente(props) {
+  return (
+    <div className="Comente">
+      <div className="UsuarioInfo">
+        <img className="Avatar" src={ props.autor.avatarUrl } alt={ props.autor.nome } />
+        <div className="UsuarioInfo-nome"> { props.autor.nome } </div>
+      </div>
+      <div className="Comente-texto"> { props.texto } </div>
+      <div className="Comentando-data"> { props.data } </div>
+    </div>
+
+
+  );
+
+}
