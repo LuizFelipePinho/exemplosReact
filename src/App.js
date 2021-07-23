@@ -1,25 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+//import './App.css'; -- esse arrombado aqui parece que puxa o css desse script
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <h1>Olá fudido</h1>
   );
 }
 
-export default App;
+export default App; // esse viado aqui é pra poderem importar esse scriript em outro script
